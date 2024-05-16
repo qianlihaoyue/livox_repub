@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>livox_repub</name>
+  <version>0.0.0</version>
+  <description>
+    This is a .
+  </description>
+  <maintainer email="xxxxx@xxx.com">xxx</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+  <depend>livox_ros_driver2</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
